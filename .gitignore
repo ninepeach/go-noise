@@ -1,0 +1,48 @@
+# OS
+.DS_Store
+.AppleDouble
+Thumbs.db
+Desktop.ini
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Go
+*.test
+*.out
+coverage/
+coverage.txt
+coverage.html
+
+# Node.js / TypeScript
+node_modules/
+.pnpm-store/
+*.tsbuildinfo
+.npm/
+.yarn/cache/
+.next/
+
+# Python tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.ruff_cache/
+
+# Generated documentation / build
+site/
+dist/
+build/
+
+# Local environment
+.env
+.env.*
+!.env.example
